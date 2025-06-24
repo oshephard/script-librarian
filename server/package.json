@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/parser": "^7.27.5",
+    "@babel/traverse": "^7.27.4",
+    "axios": "^1.10.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "js-yaml": "^4.1.0",
+    "mustache": "^4.2.0",
+    "pg": "^8.16.2",
+    "pg-format": "^1.0.4",
+    "simple-git": "^3.28.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
